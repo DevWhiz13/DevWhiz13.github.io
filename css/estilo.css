@@ -1,0 +1,344 @@
+ /*Templates padrão*/
+ *{
+	margin: 0;
+	padding: 0;
+ }
+  body{
+  	font-family: "Trebuchet MS" , sans-serif;
+  	background:#008080;
+  	background-size: 300px;
+
+  }
+
+  /*IDs e Classes*/
+
+  .roxo{
+  	color: #FF00FF;
+  }
+  .branco{
+  	color: #fff;
+  }
+
+  #titulo{
+  	font-size: 25px;
+    width: 300px ;
+    margin-left: 550px ;
+    padding-top: 10px;
+    
+  }
+
+  
+  
+ #menu{
+ 	width: 560px;
+ 	padding:0px auto;
+ float: right;
+
+ }
+  a{
+  	padding: 1px;
+  	text-decoration: none;
+  	 
+  }
+
+  /*Links não visitados*/
+	a:link{
+		color: #fff;
+	}
+	/*Links visitados*/
+	a:visited{
+		color: #fff;
+	}
+	/*Links hover*/
+	a:hover{
+		color: #00ff00;
+		background: #8b008b	;
+
+	}
+	/*Links active*/
+	a:active{
+		color: #00ff00;
+	}
+
+	#postagem1{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-top:50px;
+		width: 1310px;
+		height: 350px;
+		margin-left: 30px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	 margin-right: 50px;
+	}
+	/*#postagem1:hover{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-top: 50px;
+		width: 1310px;
+		height: 350px;
+		margin-left: 30px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+
+	}*/
+	
+	
+
+	#postagem1 h2{
+		font-size: 30px;
+		padding-left:490px ;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+ #postagem1 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 10px;
+ 	padding-right: 40px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+
+ #rodape{
+ 	margin-top:170px;
+ 	padding-left: 600px;
+ 	color: #fff;
+ } 
+ .imagem-postagem1{
+   float: right;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 10px;
+ }
+ #postagem2{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-top:50px;
+		width: 600px;
+		height: 600px;
+		margin-left: 30px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	}
+	#postagem2 h2{
+		font-size: 30px;
+		padding-left:30px ;
+		padding-top:20px;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+	#postagem2 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+ .imagem-postagem2{
+   float: right;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 10px;
+	}
+	#postagem3{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-left: 700px;
+	 margin-top:-200px;
+		width: 600px;
+		height: 600px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	}
+	#postagem3 h2{
+		font-size: 30px;
+		padding-left:30px;
+		padding-top: 20px;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+	#postagem3 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+ .imagem-postagem3{
+   float: right;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 0px;
+	}
+
+	#postagem4{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-left: 30px;
+	 margin-top:-200px;
+		width: 600px;
+		height: 600px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	}
+	#postagem4 h2{
+		font-size: 30px;
+		padding-left:30px;
+		padding-top: 10px;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+	#postagem4 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 20px;
+ 	padding-right: 10px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+ .imagem-postagem4{
+   float: right;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 0px;
+	}
+
+	#postagem5{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-left: 600px;
+	 margin-top:70px;
+		width: 730px;
+		height: 600px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	}
+	#postagem5 h2{
+		font-size: 30px;
+		padding-left:30px;
+		padding-top: 10px;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+	#postagem5 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 20px;
+ 	padding-right: 10px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+ .imagem-postagem5{
+   float: right;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 0px;
+	}
+
+	#postagem6{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-left: 20px;
+	 margin-top:70px;
+		width: 1310px;
+		height: 600px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	}
+	#postagem6 h2{
+		font-size: 30px;
+		padding-left:30px;
+		padding-top: 10px;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+	#postagem6 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 20px;
+ 	padding-right: 10px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+ .imagem-postagem6{
+   float: right;
+   width: 200px;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 0px;
+	}
+
+	#postagem7{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-left: 20px;
+	 margin-top:70px;
+		width: 1310px;
+		height: 300px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	}
+	#postagem7 h2{
+		font-size: 30px;
+		padding-left:530px;
+		padding-top: 10px;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+	#postagem7 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 20px;
+ 	padding-right: 10px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+ .imagem-postagem7{
+   float: right;
+   width: 200px;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 0px;
+	}
+
+	#postagem8{
+		background: linear-gradient(to top,#00fa9a, purple) ;
+	 margin-left:300px;
+	 margin-top:70px;
+		width: 730px;
+		height: 730px;
+		border-radius: 32px 64px;
+	 box-shadow:4px 5px 8px 8px green,-4px -5px 8px 8px purple;
+	}
+	#postagem8 h2{
+		font-size: 30px;
+		padding-left:30px;
+		padding-top: 10px;
+		padding-bottom: 20px;
+		color: #fff;
+    text-shadow: 2px 4px 5px 	#ff00ff;
+	}
+	#postagem8 p{
+ 	font-size: 16px;
+ 	padding-top: 40px;
+ 	padding-left: 30px;
+ 	padding-right: 10px;
+ 	color: #fff;
+ 	text-shadow: 2px 4px 5px purple;
+ }
+ .imagem-postagem8{
+   float: right;
+   width: 200px;
+		margin: 16px 16px 16px 0;
+		border-radius: 16px 32px;
+		padding-left: 0px;
+	}
+	#postagem8 h6{
+		font-size: 16px;
+		color: #fff;
+		text-shadow: 2px 4px 5px purple;
+		padding-left:10px;
+	}
+
+
+
+
+
+
+
+
